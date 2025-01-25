@@ -1,7 +1,0 @@
-INDEX VERSION 1.4+C:\Users\madha\spring\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-390017396.index
-1530598591.index
-3397679284.index
-2856196767.index
-1330963727.index
-4056083878.index
