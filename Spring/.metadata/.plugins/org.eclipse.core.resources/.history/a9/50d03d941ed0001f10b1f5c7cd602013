@@ -1,0 +1,30 @@
+package in.mbtions.di;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import in.mbtions.di.beans.Address;
+import in.mbtions.di.beans.Student;
+
+@Configuration
+public class Config {
+	
+	@Bean
+	public Address createAddressObject() {
+		Address address = new Address();
+		address.setHno(265);
+		address.setCity("Meerut");
+		address.setPincode(201208);
+		return address;
+	}
+	
+	@Bean
+	public Student createStudentObject() {
+		Student std = new Student();
+		std.setName("Jigyasa");
+		std.setRollno(203);
+		std.setAddress(createAddressObject());
+		
+		return std;
+	}
+ }

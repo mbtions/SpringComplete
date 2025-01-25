@@ -1,0 +1,5 @@
+package in.mbtions.program1_xml.beans;
+
+public class Student {
+
+}

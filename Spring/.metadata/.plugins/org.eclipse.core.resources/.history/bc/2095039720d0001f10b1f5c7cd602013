@@ -1,0 +1,14 @@
+package in.mbtions.di;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class Config {
+	
+	@Bean
+	public Address createAddressObject() {
+		Address addr = new Address(200, "Chandigarh", 123211);
+		
+		return addr;
+	}
+}

@@ -1,0 +1,5 @@
+package in.mbtions.program2_Java.beans;
+
+public class Student {
+
+}
